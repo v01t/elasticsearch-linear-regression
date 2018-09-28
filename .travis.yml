@@ -9,7 +9,7 @@ script: ./gradlew check
 
 deploy:
   provider: releases
-  api_key: 383e51e8090b22a6f444ee92c0d72cddf3ff61ba
+  api_key: 5eb80d564da98d8513bb48a1c1cd50dbe8e65f17
   file: build/distributions/elasticsearch-linear-regression*.zip
   skip_cleanup: true
   on:
